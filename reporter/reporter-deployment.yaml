@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reporter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reporter
+  template:
+    metadata:
+      labels:
+        app: reporter
+    spec:
+      containers:
+        - name: reporter
+          image: reporter:latest
+          imagePullPolicy: IfNotPresent
