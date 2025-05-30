@@ -2,7 +2,7 @@
 Detect and block suspicious outbound connections from pods running in your cluster using eBPF. Your mission includes monitoring activity, tracing processes, and implementing firewall-like controls using custom eBPF logic.
 
 ## setup
-- git clone `https://github.com/Sangwaniya/cloud-defence-project.git`
+- git clone `https://github.com/Sangwaniya/cyber-defence-project.git`
 - `sudo apt install python  docker code minikube kubectl` 
 - setup local machine to use [gpg keys](https://docs.gitlab.com/user/ssh/#generate-an-ssh-key-pair) to avoid logging in every time commit is made 
 
